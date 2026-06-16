@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* color: white; */
+}
+
+body {
+  background-color: #111;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 280px;
+  background: #f5f5f5;
+  border-radius: 22px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* Top */
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  background: white;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+
+/* Center */
+
+.center h4 {
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.center h4 span {
+  color: #888;
+  font-weight: 400;
+}
+
+.center h2 {
+  font-size: 24px;
+  line-height: 1.1;
+  margin-bottom: 15px;
+}
+
+.tags {
+  display: flex;
+  gap: 8px;
+}
+
+.tags span {
+  background: #e5e5e5;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 11px;
+  color: #444;
+}
+
+/* Bottom */
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom h3 {
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+
+.bottom p {
+  font-size: 12px;
+  color: #777;
+}
+
+
+
+.top img {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+  background: white;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.save-btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  border: none;
+  background: transparent;
+  color: #555; /* darker */
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+.save-btn:hover {
+  color: #111;
+  transform: translateY(-2px);
+}
+
+.apply-btn {
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+
+  transition: all 0.3s ease;
+}
+.apply-btn:hover {
+  background: #222;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
